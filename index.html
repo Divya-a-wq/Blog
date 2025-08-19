@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BlogWeb — Advanced Listing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>📚 BlogWeb</h1>
+      <p class="subtitle">Latest tech write-ups, tips, and tutorials</p>
+    </div>
+  </header>
+
+  <section class="toolbar">
+    <input type="text" id="searchInput" placeholder="🔍 Search by title or description..." />
+    <select id="categoryFilter" aria-label="Filter by category">
+      <option value="">All Categories</option>
+      <option value="Frontend">Frontend</option>
+      <option value="Backend">Backend</option>
+      <option value="AI">AI</option>
+      <option value="DevOps">DevOps</option>
+      <option value="Security">Security</option>
+      <option value="Cloud">Cloud</option>
+      <option value="Database">Database</option>
+      <option value="Tools">Tools</option>
+    </select>
+  </section>
+
+  <main id="blogGrid" class="grid"></main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> BlogWeb • Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

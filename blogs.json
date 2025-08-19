@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Web Development",
+    "description": "Start with HTML, CSS, and JavaScript to build the web foundation.",
+    "category": "Frontend",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "image": "images/webdev.jpeg",
+    "content": "<h2>Getting Started</h2><p>Web development begins with understanding the building blocks of the web: <strong>HTML</strong> for structure, <strong>CSS</strong> for style, and <strong>JavaScript</strong> for interactivity. Learn semantic HTML, responsive CSS, and modern JavaScript (ES6+). Practice by cloning simple websites and gradually adopt frameworks like React, Vue, or Angular.</p><p>Focus on accessibility, performance, and clean code. Use browser dev tools for debugging and measuring performance.</p><h3>Next Steps</h3><p>Explore build tools (Vite, Webpack), package managers (npm, pnpm), and testing (Jest, Vitest). Deploy your projects using Netlify, Vercel, or GitHub Pages.</p>"
+  },
+  {
+    "id": 2,
+    "title": "Responsive Web Design",
+    "description": "Make your layouts adapt beautifully to all screen sizes.",
+    "category": "Frontend",
+    "tags": ["CSS", "Media Queries", "Grid"],
+    "image": "images/wedesign.jpeg",
+    "content": "<h2>Why Responsive?</h2><p>Users visit from phones, tablets, and desktops. Responsive styles ensure consistent experience. Use fluid grids, flexible images, and media queries.</p><ul><li>Grid & Flexbox for layout</li><li>Clamp() for fluid typography</li><li>Test on multiple breakpoints</li></ul><p>Keep line-length readable and spacing generous for touch targets.</p>"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Best Practices",
+    "description": "Write cleaner and more maintainable JS.",
+    "category": "Frontend",
+    "tags": ["JavaScript", "Clean Code", "ES6+"],
+    "image": "images/js.png",
+    "content": "<h2>Tips</h2><p>Prefer const/let, small functions, meaningful names, and avoid deep nesting. Use async/await for readability. Keep side-effects contained and write unit tests.</p><p>Document with JSDoc and use linters (ESLint) and formatters (Prettier).</p>"
+  },
+  {
+    "id": 4,
+    "title": "Mastering React",
+    "description": "Components, hooks, and state management done right.",
+    "category": "Frontend",
+    "tags": ["React", "Hooks", "SPA"],
+    "image": "images/react.png",
+    "content": "<h2>React Essentials</h2><p>Think in components, lift state up, and avoid prop drilling via context or state libraries like Redux/Zustand. Memoize expensive computations and split code with lazy() for performance.</p><p>Follow accessibility patterns and use error boundaries.</p>"
+  },
+  {
+    "id": 5,
+    "title": "Node.js & Express Basics",
+    "description": "Create fast and scalable APIs.",
+    "category": "Backend",
+    "tags": ["Node.js", "Express", "API"],
+    "image": "images/node.jpeg",
+    "content": "<h2>Server Basics</h2><p>Use Express for routing, middlewares for auth/logging, and environment variables for secrets. Handle errors centrally and validate requests.</p><p>Connect to databases, serve static files, and build RESTful endpoints.</p>"
+  },
+  {
+    "id": 6,
+    "title": "RESTful API Design",
+    "description": "Design clean, versioned endpoints with proper status codes.",
+    "category": "Backend",
+    "tags": ["REST", "HTTP", "Design"],
+    "image": "images/rsapi.jpeg",
+    "content": "<h2>Principles</h2><p>Use nouns for resources, plural forms, and consistent error responses. Document endpoints with OpenAPI/Swagger. Support pagination, filtering, and sorting.</p><p>Protect endpoints with auth (JWT/OAuth) and rate-limiting.</p>"
+  },
+  {
+    "id": 7,
+    "title": "Intro to Databases",
+    "description": "SQL vs NoSQL: when to use what.",
+    "category": "Database",
+    "tags": ["SQL", "NoSQL", "Design"],
+    "image": "images/db.jpeg",
+    "content": "<h2>Choosing DB</h2><p>Use relational for strong consistency and relations; NoSQL for flexibility and horizontal scaling.</p><p>Design schemas carefully and index for performance.</p>"
+  },
+  {
+    "id": 8,
+    "title": "Cloud Computing 101",
+    "description": "AWS, Azure, GCP fundamentals.",
+    "category": "Cloud",
+    "tags": ["AWS", "Azure", "GCP"],
+    "image": "images/cloud.jpeg",
+    "content": "<h2>Cloud Benefits</h2><p>Scale on demand, pay-as-you-go, and managed services. Learn IAM, networking basics, and pricing models to optimize costs.</p>"
+  },
+  {
+    "id": 9,
+    "title": "DevOps Practices",
+    "description": "CI/CD, pipelines, and automation.",
+    "category": "DevOps",
+    "tags": ["CI/CD", "Pipelines", "Automation"],
+    "image": "images/devops.jpeg",
+    "content": "<h2>Flow</h2><p>Automate tests, builds, and deployments; keep environments reproducible with containers. Monitor with logs, metrics, and traces.</p>"
+  },
+  {
+    "id": 10,
+    "title": "Docker for Developers",
+    "description": "Package apps in portable containers.",
+    "category": "DevOps",
+    "tags": ["Docker", "Containers"],
+    "image": "images/docker.png",
+    "content": "<h2>Basics</h2><p>Write minimal Dockerfiles, prefer alpine images, use multi-stage builds, and pin versions. Share compose files for dev UX.</p>"
+  },
+  {
+    "id": 11,
+    "title": "Kubernetes Essentials",
+    "description": "Orchestrate containers at scale.",
+    "category": "DevOps",
+    "tags": ["Kubernetes", "Orchestration", "Cloud"],
+    "image": "images/kuber.png",
+    "content": "<h2>Concepts</h2><p>Pods, deployments, services, and ingress. Use namespaces, resource quotas, and probes. Manage configs with ConfigMaps/Secrets.</p>"
+  },
+  {
+    "id": 12,
+    "title": "Intro to Machine Learning",
+    "description": "Supervised vs unsupervised learning.",
+    "category": "AI",
+    "tags": ["ML", "Algorithms", "Models"],
+    "image": "images/ml.jpeg",
+    "content": "<h2>Start Here</h2><p>Understand data preprocessing, model training, and metrics like accuracy/F1. Avoid leakage and overfitting with proper validation.</p>"
+  },
+  {
+    "id": 13,
+    "title": "NLP Basics",
+    "description": "Text preprocessing to transformers.",
+    "category": "AI",
+    "tags": ["NLP", "Text", "Transformers"],
+    "image": "images/nlp.jpeg",
+    "content": "<h2>Pipeline</h2><p>Tokenization, embeddings, sequence models, and transformer architectures. Evaluate with BLEU/F1 and handle bias carefully.</p>"
+  },
+  {
+    "id": 14,
+    "title": "Cybersecurity Essentials",
+    "description": "Protect against common threats.",
+    "category": "Security",
+    "tags": ["Encryption", "OWASP", "Auth"],
+    "image": "images/cyberimage.jpeg",
+    "content": "<h2>Secure by Design</h2><p>Input validation, least privilege, proper secrets management, and continuous monitoring. Keep dependencies updated and follow OWASP Top 10.</p>"
+  },
+  {
+    "id": 15,
+    "title": "Version Control with Git",
+    "description": "Collaboration and workflows.",
+    "category": "Tools",
+    "tags": ["Git", "GitHub", "Branching"],
+    "image": "images/git.png",
+    "content": "<h2>Workflows</h2><p>Use feature branches, pull requests, code reviews, and semantic commit messages. Automate checks via CI.</p>"
+  },
+  {
+    "id": 16,
+    "title": "Next.js for Production",
+    "description": "Hybrid rendering, routing, and SEO.",
+    "category": "Frontend",
+    "tags": ["Next.js", "SSR", "SEO"],
+    "image": "images/next1.webp",
+    "content": "<h2>Highlights</h2><p>File-based routing, API routes, image optimization, and ISR. Use middleware for auth and edge functions for fast responses.</p>"
+  }
+]
